@@ -1,0 +1,47 @@
+{
+	"Media query": {
+		"prefix": "mqof",
+		"scope": "dart",
+		"body": "final mediaQuery = MediaQuery.of(context);"
+	},
+	"Theme": {
+		"prefix": "thof",
+		"scope": "dart",
+		"body": "final theme = Theme.of(context);"
+	},
+	"ToJson": {
+		"prefix": "tjs",
+		"scope": "dart",
+		"description": "Generate toJson()",
+		"body": "Map<String, dynamic> toJson() => _$$0 ToJson(this);"
+	},
+	"TryCatch": {
+		"prefix": "tc",
+		"scope": "dart",
+		"description": "Generate try-catch func",
+		"body": [
+			"try {",
+			"}",
+			"catch(e, st) {",
+			"}",
+		]
+	},
+	"HiveInstance": {
+		"prefix": "hivi",
+		"scope": "dart",
+		"description": "Generate Hive instance",
+		"body": "HiveDb.instance"
+	},
+	"HiveDatabaseHelperInstance": {
+		"prefix": "hivih",
+		"scope": "dart",
+		"description": "Generate Hive Database helper instance",
+		"body": "HiveDatabaseHelper.instance"
+	},
+	"DebugPrint": {
+		"prefix": "dbpr",
+		"scope": "dart",
+		"description": "Debug print",
+		"body": "debugPrint('Error: ${e.toString()}');"
+	}
+}
